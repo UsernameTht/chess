@@ -18,4 +18,8 @@ public class Piece {
         }
 
     }
+
+    public boolean isValidMove(int startRow, int startCol, int endRow, int endCol) {
+        // move at most 1 square in any direction
+    }
 }
